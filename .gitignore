@@ -1,0 +1,5 @@
+Client/node_modules
+Client/bookstore/node_modules
+Server/node_modules
+Server/.env
+Server/*.log

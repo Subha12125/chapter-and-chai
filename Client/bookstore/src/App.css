@@ -1,0 +1,4 @@
+/* Chapter & Chai Custom Global Transitions */
+html {
+  scroll-behavior: smooth;
+}

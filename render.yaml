@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: bookstore-api
+    env: node
+    plan: free
+    buildCommand: cd Server && npm install
+    startCommand: cd Server && node server.js
+    envVars:
+      - key: MONGO_DB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: PORT
+        value: 5050
+      - key: NODE_ENV
+        value: production
