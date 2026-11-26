@@ -2,12 +2,6 @@
 
 A full-stack MERN online bookstore web application featuring a curated storefront, search and genre filtering, cart and checkout workflow, JWT-based authentication, order tracking, and a seller/admin dashboard for managing inventory and orders.
 
-## Live Deployments
-
-- **Frontend (Vercel):** https://online-book-store-puce-theta.vercel.app/
-- **Backend API (Render):** https://online-book-store-1-xfg0.onrender.com
-- **Repository:** https://github.com/Subha12125/chapter-and-chai
-
 ## Features
 
 - **Storefront & Catalog:** Curated home sections (Hero, Collections, Value Props, Testimonials, Newsletter), detailed book view modal, and live search/filtering by title, author, and genre.
